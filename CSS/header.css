@@ -22,12 +22,24 @@ nav {
     width: 26px;
     height: 2px;
     background-color: olivedrab;
+    transition: all 300ms ease-in-out;
+    transform-origin: 3px 1px;
 }
 
 .header-menu > span:not(:last-child) {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
+.menu-open > span:first-child {
+    transform: rotate(45deg);
+}
+.menu-open > span:nth-child(2) {
+    opacity: 0;
+}
+.menu-open > span:last-child {
+    transform: rotate(-45deg);
+}
+/**************************/
 .header-links > a {
     font-size: 0.875rem;
     color: darkgray;
@@ -59,7 +71,7 @@ nav {
 }
 
 .header-cta {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     color: white;
     transition: opacity 300ms ease-in-out;
 }
