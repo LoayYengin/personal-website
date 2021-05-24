@@ -1,5 +1,4 @@
 .header {
-
 }
 
 nav {
@@ -30,15 +29,19 @@ nav {
     margin-bottom: 5px;
 }
 
-.menu-open > span:first-child {
+/*Hamburger open styles - when header has class menu-open*/
+.menu-open > nav > a > span:first-child {
     transform: rotate(45deg);
 }
-.menu-open > span:nth-child(2) {
+
+.menu-open > nav > a > span:nth-child(2) {
     opacity: 0;
 }
-.menu-open > span:last-child {
+
+.menu-open > nav > a > span:last-child {
     transform: rotate(-45deg);
 }
+
 /**************************/
 .header-links > a {
     font-size: 0.875rem;
@@ -50,9 +53,11 @@ nav {
 .header-links > a:not(:last-child) {
     margin-right: 32px;
 }
+
 .header-links > a:hover {
     color: #ffaaa7;
 }
+
 .header-links > a::before {
     content: "";
     position: absolute;
@@ -75,6 +80,17 @@ nav {
     color: white;
     transition: opacity 300ms ease-in-out;
 }
+
 .header-cta:hover {
     opacity: 0.75
+}
+
+.overlay {
+    opacity: 0;
+    position: fixed;
+    top: 4.75rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(#98ddca, transparent);
 }
