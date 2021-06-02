@@ -2,21 +2,23 @@
 }
 
 nav {
-    padding: 1.0625rem 1.5rem;
+    position: relative;
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
 }
 
-.header-logo > img {
-    /*width: 8.8125rem;*/
-    /*height: 1.375rem;*/
+.header-logo {
+    position: center;
 }
-
 .tree-logo {
+    position: relative;
     max-width: 100%;
-    height: 60px;
+    /*width: 40px;*/
+    height: 40px;
 }
 
-/*mobile menu*/
-.header-menu > span {
+/*mobile menu toggle*/
+.header-toggle > span {
     display: block;
     width: 26px;
     height: 2px;
@@ -25,7 +27,7 @@ nav {
     transform-origin: 3px 1px;
 }
 
-.header-menu > span:not(:last-child) {
+.header-toggle > span:not(:last-child) {
     margin-bottom: 5px;
 }
 
@@ -42,14 +44,32 @@ nav {
     transform: rotate(-45deg);
 }
 
+.header-menu {
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    margin-top: 1.5rem;
+    padding: 1.625rem;
+    border-radius: 5px;
+}
+.header-menu > a {
+    display: block;
+    padding: 0.625rem;
+    color: olivedrab;
+    text-align: center;
+}
 /**************************/
 .header-links > a {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: darkgray;
     position: relative;
     transition: color 300ms ease-in-out;
 }
-
+.header-links {
+    margin-left: 80px;
+}
 .header-links > a:not(:last-child) {
     margin-right: 32px;
 }

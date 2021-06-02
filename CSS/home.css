@@ -1,5 +1,32 @@
 .home-content {
     color: black;
-    font-size: 0.625rem;
-    text-align: center;
+    font-size: 1.25rem;
 }
+
+.has-text-align-center {
+    text-align: center;
+    margin: 30px;
+}
+
+.emoji {
+    height: 1em;
+    width: auto;
+    margin: 0 0.5em;
+}
+
+.emoji-bug{
+    height: 1.5em;
+    width: auto;
+    vertical-align: -0.2em;
+}
+
+.emoji-cake {
+    height: 1em;
+    width: auto;
+    margin: 0 0.5em;
+    vertical-align: -0.1em;
+}
+
+
+/*&#127874;*/
+
