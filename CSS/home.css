@@ -1,6 +1,9 @@
 .home-content {
     color: black;
     font-size: 1.25rem;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
 }
 
 .has-text-align-center {
@@ -28,5 +31,5 @@
 }
 
 
-/*&#127874;*/
+/*&#127874; coke emoji unicode*/
 

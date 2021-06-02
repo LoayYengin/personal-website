@@ -43,38 +43,11 @@
     margin: 0 0 40px 0;
 }
 
-/*#footer .social-links {*/
-/*    margin: 0 0 40px 0;*/
-/*}*/
-
-/*#footer .social-links a {*/
-/*    font-size: 18px;*/
-/*    display: inline-block;*/
-/*    !*background: #ffb727;*!*/
-/*    background: #d5ecc2;*/
-/*    color: #fff;*/
-/*    line-height: 1;*/
-/*    padding: 8px 0;*/
-/*    margin-right: 4px;*/
-/*    border-radius: 50%;*/
-/*    text-align: center;*/
-/*    width: 36px;*/
-/*    height: 36px;*/
-/*    transition: 0.3s;*/
-/*}*/
-
-/*#footer .social-links a:hover {*/
-/*    !*background: #f3a200;*!*/
-/*    background: #ace37d;*/
-/*    color: #fff;*/
-/*    text-decoration: none;*/
-/*}*/
-
 #footer .copyright {
     color: darkgray;
     margin: 0 0 5px 0;
 }
-/*--------------kelly header-social-links styles-----------------------------*/
+
 #footer .footer-social-links {
     margin: 0 0 40px 0;
     /*padding-right: 15px;*/
