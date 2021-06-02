@@ -14,7 +14,10 @@ body {
     font-size: 1.125rem;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
-    color: lightseagreen;
+    color: black;
+}
+.no-scroll {
+    overflow: hidden;
 }
 a {
     text-decoration: none;
@@ -24,13 +27,15 @@ a:hover {}
 a:visited{
 }
 
+/*spacing*/
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 .flex {
     display: flex;
-}
-.flex-jc-sb {
     justify-content: space-between;
-}
-.flex-ai-c {
     align-items: center;
 }
 
@@ -39,7 +44,7 @@ button, .button {
     padding: 0.875rem 2.1875rem;
     border: 0;
     border-radius: 50px;
-    background: linear-gradient(to right, lightgreen, cornflowerblue);
+    background: #d5ecc2;
     color: white;
     font-weight: 400;
 }
@@ -51,7 +56,7 @@ button, .button {
     }
 }
 @media (min-width: 64em) {
-    .hide-for-desktop {
+    .header-toggle {
         display: none;
     }
 }
