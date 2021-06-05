@@ -18,8 +18,6 @@
     right: 0;
     top: 0;
     bottom: 0;
-    /*background: rgba(0, 0, 0, 0.6);*/
-    /*background: rgba(0, 0, 0, 0.2);*/
 }
 
 #footer .container {
@@ -31,7 +29,8 @@
     font-weight: 700;
     /*color: #fff;*/
     position: relative;
-    font-family: "Satisfy", serif;
+    /*font-family: "Satisfy", serif;*/
+    font-family: 'Ruda', sans-serif;
     padding: 0;
     margin: 0 0 15px 0;
 }

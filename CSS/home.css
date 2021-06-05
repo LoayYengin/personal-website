@@ -1,9 +1,14 @@
+body {
+    overflow: hidden;
+}
+
 .home-content {
     color: black;
     font-size: 1.25rem;
     text-align: center;
     max-width: 600px;
     margin: auto;
+    padding-top: 132px;
 }
 
 .has-text-align-center {
@@ -17,7 +22,7 @@
     margin: 0 0.5em;
 }
 
-.emoji-bug{
+.emoji-bug {
     height: 1.5em;
     width: auto;
     vertical-align: -0.2em;
@@ -29,7 +34,3 @@
     margin: 0 0.5em;
     vertical-align: -0.1em;
 }
-
-
-/*&#127874; coke emoji unicode*/
-
