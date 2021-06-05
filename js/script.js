@@ -25,14 +25,15 @@
 //
 // });
 
+const body = document.querySelector("body");
 /* Open */
 function openNav() {
     document.getElementById("myNav").style.display = "block";
-    document.querySelector("body").style.overflow = "hidden";
+    body.classList.add('no-scroll');
 }
 
 /* Close */
 function closeNav() {
     document.getElementById("myNav").style.display = "none";
-    document.querySelector("body").style.overflow = "scroll";
+    body.classList.remove('no-scroll');
 }
