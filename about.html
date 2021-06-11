@@ -2,11 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>About page</title>
+    <link href="CSS/main-style-sheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ruda&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8a80e6988d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <h1>This will be the about page</h1>
+
+<header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <h1 class="logo me-auto me-lg-0"><a href="index.html">Yengin Loay</a></h1>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span class="hambtn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        </nav>
+
     </div>
+
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+</header>
+
+<div class="about-content">
+    <h1>This will be the about page</h1>
+</div>
+
+<footer id="footer">
+    <div class="container">
+        <h3>Thanks for visiting</h3>
+        <p>Tell me what it is you plan to do with your one wild and precious life.</p>
+        <div class="footer-social-links">
+            <a href="https://github.com/LoayYengin"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/biologistabroad/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/yengin-loay"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright 2021 by Yengin Loay
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>

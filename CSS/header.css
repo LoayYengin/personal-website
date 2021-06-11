@@ -193,7 +193,8 @@
     height: 3px;
     bottom: -5px;
     left: 0;
-    background: linear-gradient(to right, #d5ecc2, #98ddca);
+    background: #d5ecc2;
+    /*background: #98ddca;*/
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
 }

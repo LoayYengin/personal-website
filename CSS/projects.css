@@ -12,7 +12,7 @@
 
 .services .icon {
     margin: 0 auto 20px auto;
-    padding-top: 17px;
+    /*padding-top: 17px;*/
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -21,10 +21,11 @@
     background: #d5ecc2;
 }
 
-.services .icon i {
-    font-size: 36px;
-    line-height: 1;
-    color: #d5ecc2;
+.services .icon img.pic {
+    margin: 12px 0 0 2px;
+}
+.services .icon img.pic-alien-ship {
+    margin: 6px 2px 0 3px; /*position within icon*/
 }
 
 .services .title {
@@ -40,6 +41,7 @@
 
 .services .description {
     font-size: 15px;
+    color: dimgray;
     line-height: 28px;
     margin-bottom: 0;
 }
@@ -65,6 +67,8 @@
     }
 }
 
+/*---global---*/
+/* container same as header*/
 .container {
     width: 100%;
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -72,7 +76,32 @@
     margin-right: auto;
     margin-left: auto;
 }
-
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
+/*--------*/
 section {
     padding: 60px 0;
 }
@@ -139,6 +168,7 @@ section {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
 }
+/*-------------------------*/
 
 .d-flex {
     display: flex !important;
@@ -149,9 +179,33 @@ section {
 }
 
 .mb-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 3rem!important;
 }
 
-.mb-lg-0 {
-    margin-bottom: 0 !important;
+@media (min-width: 992px) {
+    .mb-lg-0 {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-title h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .section-title span {
+        font-size: 38px;
+    }
+}
+
+/*-------*/
+
+.pic {
+    height: 48px;
+    width: 48px;
+}
+
+.pic-alien-ship {
+    height: 64px;
+    width: 64px;
 }
