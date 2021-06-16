@@ -193,8 +193,7 @@
     height: 3px;
     bottom: -5px;
     left: 0;
-    background: #d5ecc2;
-    /*background: #98ddca;*/
+    background: #a4c639;
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
 }

@@ -18,10 +18,8 @@
     border-radius: 50%;
     width: 72px;
     height: 72px;
-    /*background: #d5ecc2;*/
-    /*background: #34b7a7;*/
-    /*background: #a4c639;*/
-    background: mediumpurple;
+    background: #a4c639;
+
 }
 
 .services .icon img.pic {
@@ -50,17 +48,12 @@
 }
 
 .services .icon-box:hover {
-    /*border-color: #d5ecc2;*/
-    /*border-color: #34b7a7;*/
-    /*border-color: #a4c639;*/
-    border-color: mediumpurple;
+    border-color: #a4c639;
 }
 
 .services .icon-box:hover .title a {
-    /*color: #d5ecc2;*/
-    /*color: #34b7a7;*/
-    /*color: #a4c639;*/
-    color: mediumpurple;
+    color: #a4c639;
+
 }
 
 @media (min-width: 768px) {
