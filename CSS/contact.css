@@ -1,11 +1,8 @@
-/*#form {*/
-/*    width: 50%;*/
-/*}*/
 
 iframe {
-    margin: 100px 15% 0 15%;
+    margin: 0 15% 0 15%;
     width: 70%;
-    height: 808px;
+    height: 900px;
 }
 @media (max-width: 576px) {
     iframe {
