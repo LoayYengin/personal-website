@@ -80,6 +80,6 @@
     text-align: right;
 }
 
-.publication:hover {
-    color: #ffaaa7;
+.external-link:hover {
+    color: tomato;
 }
