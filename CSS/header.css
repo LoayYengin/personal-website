@@ -84,8 +84,7 @@
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-    /*color: #ffaaa7;*/
-    color: tomato;
+    color: #C6A239;
 }
 
 /*---------*/
